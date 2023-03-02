@@ -1,0 +1,25 @@
+{
+  "name": "oliver-hader/csp-test",
+  "description": "TYPO3 Content-Security-Policy Test Extension",
+  "license": "GPL-2.0-or-later",
+  "type": "typo3-cms-extension",
+  "authors": [
+    {
+      "name": "Oliver Hader",
+      "email": "oliver@typo3.org"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": "12.3.x-dev || ^12.3"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "csp_test"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "OliverHader\\CspTest\\": "Classes/"
+    }
+  }
+}
